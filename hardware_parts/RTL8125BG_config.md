@@ -16,7 +16,7 @@ sudo rmmod r8169
 
 Repository: [https://github.com/redchenjs/rtnicpg](https://github.com/redchenjs/rtnicpg)
 
-Change pgdrv.c according to https://github.com/redchenjs/rtnicpg/issues/1, add
+Change pgdrv.c according to https://github.com/redchenjs/rtnicpg/issues/1, add the following code before the line ```LINUX_VERSION_CODE < KERNEL_VERSION(2,6,11)```.
 ``` bash
 #if LINUX_VERSION_CODE >= KERNEL_VERSION(6,3,0)
     vm_flags_set(vma, VM_IO);
@@ -24,7 +24,6 @@ Change pgdrv.c according to https://github.com/redchenjs/rtnicpg/issues/1, add
     vma->vm_flags |= VM_IO;
 #endif
 ```
-before line ```LINUX_VERSION_CODE < KERNEL_VERSION(2,6,11)```
 
 ------------------------------------------------------------------------
 
