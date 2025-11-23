@@ -14,9 +14,7 @@ sudo rmmod r8169
 
 ## 2. Download Realtek Programming Utility
 
-Repository:
-
-    [https://github.com/redchenjs/rtnicpg](https://github.com/redchenjs/rtnicpg)
+Repository: [https://github.com/redchenjs/rtnicpg](https://github.com/redchenjs/rtnicpg)
 
 ------------------------------------------------------------------------
 
