@@ -15,6 +15,15 @@ sudo rmmod r8169
 ## 2. Download Realtek Programming Utility
 
 Repository: [https://github.com/redchenjs/rtnicpg](https://github.com/redchenjs/rtnicpg)
+Change pgdrv.c according to https://github.com/redchenjs/rtnicpg/issues/1, add
+``` bash
+#if LINUX_VERSION_CODE >= KERNEL_VERSION(6,3,0)
+    vm_flags_set(vma, VM_IO);
+#else
+    vma->vm_flags |= VM_IO;
+#endif
+```
+before line ```LINUX_VERSION_CODE < KERNEL_VERSION(2,6,11)```
 
 ------------------------------------------------------------------------
 
