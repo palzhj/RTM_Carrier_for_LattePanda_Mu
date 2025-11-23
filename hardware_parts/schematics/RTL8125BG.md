@@ -16,7 +16,7 @@ sudo rmmod r8169
 
 Repository:
 
-    https://github.com/redchenjs/rtnicpg
+    [https://github.com/redchenjs/rtnicpg](https://github.com/redchenjs/rtnicpg)
 
 ------------------------------------------------------------------------
 
