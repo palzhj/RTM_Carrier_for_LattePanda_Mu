@@ -1,5 +1,7 @@
 # RTM Carrier Board for LattePanda Mu
 
+![RTM Carrier Board for LattePanda Mu](./photo1.jpg)
+
 ## Overview
 The RTM Carrier Board for the [**LattePanda Mu X86 Compute Module**](https://www.lattepanda.com/lattepanda-mu) is compatible with the AMC RTM (Rear Transition Module) standard design, providing rich I/O expansion, advanced power management, and high-speed network connectivity.
 It supports **Intel® N100/N305 processors** with 8GB or 16GB DDR memory, offering an ideal platform for embedded control, edge computing, and hardware acceleration applications.
@@ -8,6 +10,8 @@ In addition to standard interfaces such as USB, HDMI, and M.2 expansion, the boa
 The carrier also comes preloaded with the Xilinx Vivado design tools, enabling users to perform FPGA programming, debugging, and hardware verification directly within the system — greatly enhancing the efficiency of remote FPGA board debugging in MicroTCA-based systems.
 
 ![RTM Carrier Board for LattePanda Mu](./RTM_Carrier_for_LattePanda_Mu.png)
+
+![RTM Carrier Board for LattePanda Mu](./photo2.jpg)
 
 ---
 
