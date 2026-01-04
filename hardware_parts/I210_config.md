@@ -2,7 +2,7 @@
 
 ### **1. Firmware Burning via External EEPROM Programmer**
 
-Use an external EEPROM programmer (e.g., [Xgpro_T76](https://xgecu.myshopify.com/products/xgecu-t76-usb3-0-universal-programmer-support-eeprom-nor-nand-emmc-mcu-gal-minpro-tl866ii-t56-programmer-replacement-ic-tester）) to burn the file **`ZB25VQ16@SOIC8.BIN`** into the EEPROM.
+Use an external EEPROM programmer (e.g., [Xgpro_T76](https://xgecu.myshopify.com/products/xgecu-t76-usb3-0-universal-programmer-support-eeprom-nor-nand-emmc-mcu-gal-minpro-tl866ii-t56-programmer-replacement-ic-tester)) to burn the file **`ZB25VQ16@SOIC8.BIN`** into the EEPROM.
 
 ---
 
